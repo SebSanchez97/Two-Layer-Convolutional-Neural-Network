@@ -1,0 +1,4 @@
+# Project Overview
+This repository contains a minimal, self-contained example of training a two layer Convolutional Neural Network (CNN) on the MNIST handwritten-digit dataset using PyTorch. 
+
+Two NumPy archives (train.npz, test.npz) hold the images and one-hot labels; cnn.py defines a lightweight CNN with a single convolutional layer followed by a fully connected output layer; and main.py orchestrates data loading, training with SGD/Adam, evaluation, and an optional visualisation of the learned filters and activation maps. With default hyper-parameters the model reaches roughly 92 % test accuracy in under three minutes on a CPU, making it a clear, compact template for beginners who want to understand the essentials of image classification with deep learning.
